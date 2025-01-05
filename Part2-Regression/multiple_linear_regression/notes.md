@@ -8,7 +8,7 @@
 3. [多重共線性陷阱](#多重共線性陷阱)
    - [完全共線性](#完全共線性dummy-variable-trap)
    - [高共線性](#高共線性high-multicollinearity)
-4. [Building A Model](#building-a-model)
+4. [建立模型](#建立模型)
    - [All-in](#1-all-in)
    - [Backward Elimination](#2-backward-elimination)
    - [Forward Selection](#3-forward-selection)
@@ -94,7 +94,7 @@ $$
 
 當虛擬變量之間的相關性很高時，會導致多重共線性問題。解決方法包括使用變量選擇技術、正則化方法或合併高相關性的變量。
 
-## Building A Model
+## 建立模型
 
 ### 5 methods of building models
 
@@ -290,7 +290,7 @@ Forward selection 是另一種特徵選擇技術，用於機器學習和統計�
 - $X_3$ 的 p 值 = 0.01
 - $X_4$ 的 p 值 = 0.05
 
-在這裡，$X_3$ 的 p 值最小，因此我們將 $X_3$ 添加到模型中。
+在這裡， $X_3$ 的 p 值最小，因此我們將 $X_3$ 添加到模型中。
 
 #### 步驟 3: 重複添加特徵
 
