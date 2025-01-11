@@ -30,9 +30,11 @@ Polynomial Regression 是一種回歸分析技術，用於建模 **目標變數�
 ### 方程式
 
 Polynomial Regression 的數學表達式為：
-\[
+
+$$
 y = b_0 + b_1x + b_2x^2 + b_3x^3 + \ldots + b_nx^n
-\]
+$$
+
 其中：
 
 - \(b_0, b_1, b_2, \ldots, b_n\)：係數（weights）。
@@ -77,9 +79,10 @@ y = b_0 + b_1x + b_2x^2 + b_3x^3 + \ldots + b_nx^n
 
    - 當資料點分佈呈現彎曲或非線性時，線性回歸無法良好擬合數據，這時可以考慮 Polynomial Regression。
    - 例如，下圖展示了一條明顯的二次曲線：
-     ```
+
+     $$
      y = x^2 + 3x + 2
-     ```
+     $$
 
 2. **不適合單純線性擬合**：
 
